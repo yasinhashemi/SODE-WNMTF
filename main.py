@@ -7,7 +7,7 @@ def Tri_NMF(X, V, endmembers_VCA, real_endmembers, real_abundances, alpha_1, alp
 
     SODE-WNMTF: Proposed Method
 
-    nputs
+    Inputs
     X: Hyperspectral image in R_+^(L X N), where L and N are the numbers of spectral bands and pixels, respectively.
     V: Abundance matrix in R_+^(K X N), where K is the number of endmembers.
     endmembers_VCA: Estimated endmembers in R_+^(L X K) via VCA method.
